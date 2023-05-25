@@ -127,3 +127,27 @@ h2{
 #produto .flex-container, #contato .flex-container{
     margin-top: 43px;
 }
+
+hr{
+
+    height: 1px;
+    border-width:0;
+    color:#6dd432;
+    background-color:#6dd432
+
+}
+
+#insta{
+    width: 100px;
+    height: 100px;
+    
+}   
+footer h3{
+    font-family:'Courier New', Courier, monospace;
+}
+
+#git{
+    width: 100px;
+    height: 100px;
+    
+}

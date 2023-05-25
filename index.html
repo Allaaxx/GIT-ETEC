@@ -8,6 +8,8 @@
     <title>PetShop Mary e Gaby</title>
 
     <link rel="stylesheet" href="css/PetShopstyle.css">
+
+    <link rel="icon" sizes="any" type="image/svg+xml" href="img/icons8-gato-100.png">
 </head>
 <body>
     <header>
@@ -18,15 +20,15 @@
 
     <nav>
         <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Produtos</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li id="itemContato"><a href="#">Contato</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#produto">Produtos</a></li>
+            <li><a href="#servico">Serviços</a></li>
+            <li id="itemContato"><a href="#contato">Contato</a></li>
         </ul>
 
     </nav>
     <!-- Seção Sobre nós -->
-    <section class="fundo-verde">
+    <section class="fundo-verde" id="sobre">
         <div class="container flex-container">
             <div class="col">
                 <h2>Sobre nós</h2>
@@ -86,7 +88,7 @@
 
     <!-- Seção de serviços -->
 
-    <section class="fundo-verde">
+    <section class="fundo-verde" id="servico">
         <div class="container flex-container">
             <div class="col">
             <h2>Serviços</h2>
@@ -101,6 +103,8 @@
             </div>            
         </div>
     </section>
+
+    <!-- Seção Contato -->
 
     <section id="contato">
         <div class="container">
@@ -160,5 +164,23 @@
             </div>
         </div>
     </section>
+
+    <!-- Seção footer -->
+    <footer>
+        <div class=" container ">
+            <hr >
+        </div>
+        <div class="container texto-centralizado fontelinda fundo-verde">
+            <h4>Copyright &#169 2019 <strong>Mary & Gabi</strong> | Todos os direitos reservados </h4>
+                
+                <div  class="container ">
+                    <a href="https://www.instagram.com/allanzs.1/"><img id="insta" src="/img/png-transparent-instagram-vector-brand-logos-icon-removebg-preview.png" alt="instagram"></a>
+                    <h3>Instagram do Desenvolvedor</h3>
+                    <a href="https://www.instagram.com/allanzs.1/"><img id="git" src=img/icons8-github-512.png  alt="GitHub"></a>
+                    <h3>GitHub do Desenvolvedor</h3>
+                </div>
+        </div>
+        
+    </footer>
 </body>
 </html>
