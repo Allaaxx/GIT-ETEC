@@ -151,3 +151,41 @@ footer h3{
     height: 100px;
     
 }
+
+@media (max-width:560px){
+
+    .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .flex-container{
+        display: flex;
+        
+       
+    }
+   #sobre{
+        display: flex;
+        flex-flow: column;
+        flex-wrap: wrap;
+   }
+   form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+   }
+   #butao{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+   }
+
+   #servico .col{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+
+   }
+}
